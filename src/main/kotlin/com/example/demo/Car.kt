@@ -5,7 +5,7 @@ import java.util.UUID
 import javax.persistence.*
 
 @Entity
-@Table(name = "tractors")
+@Table(name = "cars")
 class Car (
     @Id
     @Column(length = 16, unique = true, nullable = false)
