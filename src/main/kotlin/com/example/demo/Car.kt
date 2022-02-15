@@ -16,7 +16,7 @@ class Car (
 
     @Column(length = 50)
     @Nullable
-    val make: String,
+    var make: String?,
 
     @Column(length = 50)
     @Nullable
